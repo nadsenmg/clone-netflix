@@ -1,0 +1,139 @@
+:root {
+    --vermelho: #E50914;
+    --preto: #141414;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+body {
+    background: var(--preto);
+    color: white;
+    font-family: Arial;
+}
+
+header .container {
+    font-family: 'Times New Roman', Times, serif;   
+}
+
+header .logo {
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+    margin-left: 5px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: white;
+}
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+
+/* filme principal */
+
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0, .50),rgba(49, 49, 49, 0.363) 100%),url("/projeto-netflix/img/STARWARS.jpg");
+    background-size:cover;
+    height: 500px;
+    display: flex;
+    
+}
+
+.filme-principal .descricao {
+    margin-bottom: 25px;
+    margin-top: 8px;
+}
+
+.filme-principal .title {
+    font-size:35px;
+    margin-top: 15px;
+}
+
+.filme-principal .container {
+    width: 100%;
+    margin-top: 7%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+    opacity: 0.95;
+}
+
+.btn {
+    background-color:rgba(78, 75, 75, 0.918) ;
+    color: white;
+    border-top: 2px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    height: 30px;
+    transition: 0.8s ease all;
+    cursor: pointer;
+    margin-right: 25px;
+    width: 180px;
+    margin-top: 7px;
+}
+
+.botoes i {
+    margin-left: 10px;
+    float: left;
+    padding-left: 5px;
+    
+}
+
+.botoes p {
+    margin-right: 15px;
+}
+
+.btn:hover {
+    background-color: white;
+    color:#141414;
+}
+
+.container {
+    margin-left: 10px;
+}
+
+.box-filme {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 6px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+
+.Styled-title {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+
+
