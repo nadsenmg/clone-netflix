@@ -1,8 +1,11 @@
-# RECRIANDO PAGE DO NETFLIX
-<h1 align="left">BootCamp Digital Innovation One  
+# RECRIANDO PAGE DO NETFLIX ✔️ 
+
+## BootCamp Digital Innovation One 💻 ⌨️    
+
+![projeto-netflix](https://user-images.githubusercontent.com/76880150/115059713-4cd58000-9ebd-11eb-8936-814f562621bd.png)
 
 
-### TECNOLOGIAS UTILIZADAS
+### FERRAMENTAS UTILIZADAS 🔨
 
 * HTML5
 * CSS3
